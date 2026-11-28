@@ -1,6 +1,6 @@
 # weight comverter
 
-unit = input("Kilograms or pounds? (K / Lbs): ".lower())
+unit = input("Kilograms or pounds? (K / Lbs): ").lower()
 weight = float(input("Enter your weight: "))
 
 if unit == "k":
