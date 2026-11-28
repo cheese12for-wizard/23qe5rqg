@@ -1,10 +1,10 @@
-unit = input("Celsius or fahrenheit (c / f): ".lower())
+unit = input("Celsius or fahrenheit (c / f): ").lower()
 temp = float(input("Enter a temperature: "))
 
-if unit == "C":
+if unit == "c":
     temp = round((temp * 9/5) + 32, 1)
     print(f"Your temperature is {temp}°F.")
-elif unit == "F":
+elif unit == "f":
     temp = round((temp - 32) * 5/9, 1)
     print(f"Your temperature is {temp}°C.")
 else:
