@@ -1,15 +1,15 @@
 # weight comverter
 
+unit = input("Kilograms or pounds? (K / Lbs): ".lower())
 weight = float(input("Enter your weight: "))
-unit = input("Kilograms or pounds? (K / Lbs): ")
 
-if unit == "K":
+if unit == "k":
     weight = weight * 2.205
-    unit = "Lbs"
+    unit = "lbs"
     print(f"Your weight is {round(weight, 2)} {unit}.")
-elif unit == "Lbs":
+elif unit == "lbs":
     weight = weight / 2.205
-    unit = "K"
+    unit = "k"
     print(f"Your weight is {round(weight, 2)} {unit}.")
 else:
     print(f"{unit} is not a unit!")
