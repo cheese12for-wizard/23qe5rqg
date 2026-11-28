@@ -1,4 +1,4 @@
-unit = input("Celsius or fahrenheit (C / F): ")
+unit = input("Celsius or fahrenheit (c / f): ".lower())
 temp = float(input("Enter a temperature: "))
 
 if unit == "C":
